@@ -1,5 +1,5 @@
 # Run `pulp_tests` on PULPissimo using `pulp-runtime`
-`pulp-runtime` is a runtime designed to run verification tests.
+`pulp-runtime` is a runtime designed to run verification tests: the repo contains all the HAL source code used in the tests of `riscv_tests`.
 
 ## Download and compile PULPissimo RTL
 
