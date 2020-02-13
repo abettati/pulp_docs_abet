@@ -29,7 +29,7 @@ make clean all
 git clone git@github.com:pulp-platform/pulp-runtime.git
 
 # configure the environment to use it
-source pulp-runtime/configs/pulpissimo.cfg
+source pulp-runtime/configs/pulpissimo.sh
 
 # set compiler path
 export PATH=/usr/pack/pulpsdk-1.0-kgf/artifactory/pulp-sdk-release/pkg/pulp_riscv_gcc/1.0.13/bin/:$PATH
