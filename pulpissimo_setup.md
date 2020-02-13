@@ -33,6 +33,7 @@ source pulp-runtime/configs/pulpissimo.sh
 
 # set compiler path
 export PATH=/usr/pack/pulpsdk-1.0-kgf/artifactory/pulp-sdk-release/pkg/pulp_riscv_gcc/1.0.13/bin/:$PATH
+export PULP_RISCV_GCC_TOOLCHAIN=/usr/pack/pulpsdk-1.0-kgf/artifactory/pulp-sdk-release/pkg/pulp_riscv_gcc/1.0.13
 ```
 
 ## Download the tests
