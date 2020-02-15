@@ -36,7 +36,7 @@ export PATH=/usr/pack/pulpsdk-1.0-kgf/artifactory/pulp-sdk-release/pkg/pulp_risc
 export PULP_RISCV_GCC_TOOLCHAIN=/usr/pack/pulpsdk-1.0-kgf/artifactory/pulp-sdk-release/pkg/pulp_riscv_gcc/1.0.13
 ```
 
-## Download the tests
+## Download, run and debug the tests
 Some tests to start working on are hosted on GitLab (iis-git.ee.ethz.ch): 
 [riscv_tests](https://iis-git.ee.ethz.ch/pulp-sw/riscv_tests) 
 
@@ -47,5 +47,10 @@ https://iis-git.ee.ethz.ch/pulp-sw/riscv_tests
 Then launch the test, e.g. testIRQ:
 ```bash
 cd riscv-tests/testIRQ
-make clean all run
+make clean all run gui=1
+```
+Once in Modelsim:
+```tcl
+source waves/core.tcl
+run -all
 ```
