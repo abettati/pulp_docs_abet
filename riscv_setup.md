@@ -8,7 +8,7 @@ Set up env path to Robert's toolchain:
 bash
 export RISCV=/home/balasr/.riscv
 ```
-Launch interrupt example:
+Launch interrupt example from ```riscv/tb/core```:
 ```
 make interrupt-vism-run-gui
 ```
